@@ -1,0 +1,16 @@
+Declare Integer n, i, x, y, z
+
+Display "Which term do you want?"
+Input n
+Set x = 1
+Set y = 0
+If n == 0 Then
+    Display 0
+Else
+    For i = 1 To n
+        Set z = x + y
+        Set x = y
+        Set y = z
+    End For
+    Display z
+End If
