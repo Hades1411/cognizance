@@ -1,0 +1,12 @@
+Declare Integer n, b
+Declare Real a
+
+Display "Enter the number"
+Input n
+Set a = n / 3
+Set b = n / 3
+If a == b Then
+    Display "True"
+Else
+    Display "False"
+End If
