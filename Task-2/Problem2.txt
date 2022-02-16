@@ -1,3 +1,4 @@
+// This program allows the user to find the nth term in a Fibonacci series
 Declare Integer n, i, x, y, z
 
 Display "Which term do you want?"
